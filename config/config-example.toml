@@ -6,7 +6,7 @@
     llm_provider = "openai" # LLM，当前可选值：openai,aliyun
 
 [server]
-    host = "127.0.0.1"
+    host = "0.0.0.0"
     port = 8888
 
 # 下方的配置非必填，请结合上方的选项和文档说明进行配置
